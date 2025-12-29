@@ -46,88 +46,175 @@ ________________________________________
 ●	Power BI: Data modelling, DAX calculations, visualization, and interactive dashboard creation.
 ________________________________________
 6. Data Pre-Processing (Excel / Power Query)
+   
 Tasks Performed:
+
 ●	Data Cleaning & Transformation: Removed duplicates, handled missing values, standardized formats, and created calculated fields for Country, City, State, Postal Code, Make, Model, Electric range, Base MSRP, Legislative District, Vehicle Location, Electric Utility, 2020 Census Tract columns.
+
 ●	Filtering & Sorting: Organized data to focus on relevant records for DOL Vehicle ID.
+
 ●	Pivot Tables: Generated Pivot Tables for data summarisation and initial insights.
+
 ●	Convert the data into Fact and Dimension Table 
+
 Fact Table – Electric Vehicle Population Data
+
 Dimension Table – Dimvehicle, DimGeography
+
 ●	Data Model: Established relationships between tables, defined cardinality, and created lookup tables where necessary.
+
 ●	Calculated Columns & DAX Measures: 
+
 DAX Measure:
+
 Total EVs = COUNT('Electric vehicle population'[VIN ])
+
 Analysis and Visualizations (Power BI):
+
 EV adopted by year
+
 EV by State (Region)
+
 Top 10 EV Makers
+
 BEV vs PHEV
+
 Average Electric Range
+
 CAFU Eligibility
+
 ●	Key Findings: 
+
 Strong Growth in EV Adoption
+
 •	Electric vehicle registrations have increased significantly in recent years, with a sharp rise after 2018.
+
 •	This indicates growing consumer acceptance and supportive government policies.
+
 Battery Electric Vehicles (BEVs) Dominate
+
 •	BEVs account for a larger share of total EVs compared to Plug-in Hybrid Electric Vehicles (PHEVs).
+
 •	The market is gradually shifting toward fully electric solutions.
+
 Regional Concentration of EVs
+
 •	EV adoption is highly concentrated in a few states and cities.
+
 •	Urban and coastal regions show much higher EV penetration than rural areas.
+
 Top Manufacturers Lead the Market
+
 •	A small number of manufacturers contribute to the majority of EV registrations.
+
 •	Certain brands consistently appear among the top performers across multiple years.
+
 Improvement in Electric Range
+
 •	Average electric range has improved steadily with newer model years.
+
 •	Technological advancements are making EVs more practical for long-distance travel.
+
 CAFV Eligibility Coverage
+
 •	Most registered EVs qualify for Clean Alternative Fuel Vehicle (CAFV) incentives.
+
 •	Incentive eligibility plays a key role in adoption decisions.
 
 ●	Analysis insights:
-           Descriptive : Summarize historical EV data to understand current and past trends.
+
+           Descriptive :
+           
+           Summarize historical EV data to understand current and past trends.
+           
 •	Total EV registrations have increased consistently year over year.
+
 •	Battery Electric Vehicles (BEVs) represent the majority of EVs compared to Plug-in Hybrid Electric Vehicles (PHEVs).
+
 •	EV adoption is unevenly distributed, with certain states and cities accounting for a large share of registrations.
+
 •	A small number of manufacturers dominate the EV market.
+
 •	Average electric range has improved with newer vehicle model years.
+
 •	Most vehicles qualify for CAFV (Clean Alternative Fuel Vehicle) eligibility.
 
-           Diagnosis: Identify the factors driving observed trends and patterns.
+           Diagnosis: 
+           
+           Identify the factors driving observed trends and patterns.
+           
 •	Higher EV adoption in specific states is driven by:
+
 o	Strong government incentives
+
 o	Better charging infrastructure
+
 o	Higher urbanization levels
+
 •	BEVs dominate due to:
+
 o	Lower long-term operating costs
+
 o	Zero fuel dependency
+
 o	Improvements in battery technology
+
 •	Manufacturers with wider model portfolios and higher electric ranges show stronger market penetration.
+
 •	Vehicles with CAFV eligibility see higher adoption, highlighting the impact of incentive policies.
+
 •	Older model years show lower range and adoption due to technological limitations at the time.
-             Predictive: Forecast future EV adoption based on historical patterns.
+
+             Predictive:
+             
+             Forecast future EV adoption based on historical patterns.
+             
 •	EV registrations are expected to continue growing rapidly if current trends persist.
-•	BEVs will likely further increase their market share, gradually reducing the dominance of PHEVs.
+
+•	BEVs will likely further increase their market share, gradually reducing the dominance of PHEVs
+.
 •	Average electric range will continue to improve as battery technology advances.
+
 •	EV adoption will expand beyond current hotspots into mid-tier cities and emerging regions.
+
 •	Manufacturers investing in high-range and affordable models will gain market share.
-             Prescriptive: Recommend actions based on insights to optimize outcomes.
+
+             Prescriptive: 
+             
+             Recommend actions based on insights to optimize outcomes.
+             
              For Policymakers:
+             
 •	Expand CAFV incentives to underserved regions.
+
 •	Invest in public charging infrastructure in low-adoption areas.
+
 •	Encourage EV adoption in rural and semi-urban regions through targeted subsidies.
+
             For Manufacturers:
+            
 •	Focus on producing affordable BEVs with longer electric ranges.
+
 •	Expand model offerings to cater to diverse customer segments.
+
 •	Target high-growth regions identified through adoption trends.
+
            For Utility & Infrastructure Planners:
+           
 •	Prioritize charging station deployment in emerging EV markets.
+
 •	Use adoption trends to forecast electricity demand and grid upgrades.
 
 10. Conclusions:
+11. 
 * The Electric Vehicle market is rapidly expanding and transitioning toward fully electric vehicles.
+* 
 * Geographic, technological, and policy factors strongly influence adoption patterns.
+* 
 * Improvements in battery technology and electric range are accelerating consumer confidence.
+* 
 * Manufacturers focusing on high-range BEVs and regions investing in charging infrastructure are driving the market forward.
+* 
 * Overall, the dataset highlights a positive and sustainable future for electric mobility, with continued growth expected in the coming years.
+* 
 
