@@ -42,7 +42,9 @@ Electric Utility	String (Text)	Usage of Electricity
 2020 Census Tract	Numeric (Integer)	Census tracking of vehicle
 ________________________________________
 5. Tools & Technologies
+   
 ●	Excel: Data cleaning, transformation, and Pivot Tables.
+
 ●	Power BI: Data modelling, DAX calculations, visualization, and interactive dashboard creation.
 ________________________________________
 6. Data Pre-Processing (Excel / Power Query)
@@ -206,7 +208,7 @@ o	Improvements in battery technology
 •	Use adoption trends to forecast electricity demand and grid upgrades.
 
 10. Conclusions:
-11. 
+ 
 * The Electric Vehicle market is rapidly expanding and transitioning toward fully electric vehicles.
 * 
 * Geographic, technological, and policy factors strongly influence adoption patterns.
